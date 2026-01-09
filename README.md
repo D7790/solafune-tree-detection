@@ -45,7 +45,7 @@ solafune-git/
 
 Models are hosted on Hugging Face Hub:
 
-**Download:** [https://huggingface.co/TheD7/solafune-tree-detection](https://huggingface.co/YOUR_USERNAME/solafune-tree-detection)
+**Download:** (https://huggingface.co/TheD7/solafune-tree-detection/tree/main))
 
 | Model | Size | Description |
 |-------|------|-------------|

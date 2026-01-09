@@ -1,0 +1,47 @@
+# .gitignore for Solafune Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (too large for git)
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+
+# Model weights (uploaded to Hugging Face separately)
+models/*.pt
+models/*.pth
+failed_models_wrong_approach/
+
+# Training outputs
+runs/
+checkpoints/
+*.log
+
+# Submissions
+submissions/*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb

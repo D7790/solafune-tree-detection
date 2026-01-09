@@ -1,0 +1,38 @@
+# Tree Canopy Detection - Solafune Competition
+# Requirements for Competition-Winning Solution
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Segmentation Models
+segmentation-models-pytorch>=0.3.3
+
+# Image Processing
+opencv-python>=4.8.0
+albumentations>=1.3.1
+scikit-image>=0.21.0
+scipy>=1.11.0
+
+# Geospatial / Polygon Processing
+shapely>=2.0.0
+rasterio>=1.3.0
+
+# Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Configuration
+pyyaml>=6.0.1
+
+# Optional: Faster training
+# timm>=0.9.0  # For additional backbones
+
+# Optional: Experiment tracking
+# wandb>=0.15.0
+# tensorboard>=2.14.0
